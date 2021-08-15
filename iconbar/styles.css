@@ -1,0 +1,21 @@
+ul {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    
+}
+
+div {
+    background-color: #555;
+    height:46px;
+    
+}
+
+i {
+    color: #fff;
+    font-size: 36px;
+}
+
+a {
+    padding:10px 20px 10px 20px;
+}
