@@ -1,21 +1,29 @@
-ul {
+.icon-panel-container {
     display:flex;
-    flex-direction:row;
-    list-style:none;
-    
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #555;
+    width:450px;
+    border-radius:3px;
 }
 
-div {
-    background-color: #555;
-    height:46px;
-    
+.icon {
+    width:90px;
+    height:55px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon:hover{
+    background-color:black;
+}
+
+.icon:active{
+    background-color:green;
 }
 
 i {
-    color: #fff;
-    font-size: 36px;
-}
-
-a {
-    padding:10px 20px 10px 20px;
+    font-size:36px;
+    color:#fff;
 }
