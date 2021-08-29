@@ -1,12 +1,12 @@
-btn_arr = document.getElementsByClassName(".main");
+btn_arr = document.querySelectorAll(".main");
 para_arr = document.querySelectorAll("p");
 function collapse() {
     for (var i = 0; i < document.querySelectorAll("p").length; i++){
         btn_arr[i].addEventListener("click", function () {
-            if (para_arr[i].style.display == "hidden") {
+            if (para_arr[i].style.display === "none") {
                 para_arr[i].style.display = "block";
             } else {
-                para_arr[i].style.display = "hidden";
+                para_arr[i].style.display = "none";
             }
         })
         
